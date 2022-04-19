@@ -1,8 +1,8 @@
 const person = {
-  salutation: 'Good morning!',
-  say() {
-    console.log(this.salutation)
-  }
+    salutation: 'Good morning!',
+    say() {
+        console.log(this.salutation)
+    }
 }
 person.say()
 

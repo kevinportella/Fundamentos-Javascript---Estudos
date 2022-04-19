@@ -1,5 +1,5 @@
 console.log(typeof Object);
 
-class Product {};
+class Product { };
 
 console.log(typeof Product)

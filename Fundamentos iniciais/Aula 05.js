@@ -14,8 +14,8 @@ let categoria = "Papelaria"
 
 // utilizando a concatenação, posso unir string com dados //
 
-console.log("Produto: " + nome 
-  + ", Categoria: " + categoria 
-  + ", Preço: " + preco 
-  + ", Desconto: " + desconto 
-  + ", Preço a Vista: " + precoComDesconto);
+console.log("Produto: " + nome
+    + ", Categoria: " + categoria
+    + ", Preço: " + preco
+    + ", Desconto: " + desconto
+    + ", Preço a Vista: " + precoComDesconto);

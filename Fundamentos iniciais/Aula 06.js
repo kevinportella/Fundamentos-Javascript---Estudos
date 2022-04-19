@@ -1,18 +1,18 @@
- // Tipos de dados //
+// Tipos de dados //
 
- let idade = 31;
+let idade = 31;
 
- // "typeof" imprime o tipo de variável que estamos trabalhando //
+// "typeof" imprime o tipo de variável que estamos trabalhando //
 
- console.log(typeof 31);
- console.log(typeof idade);
+console.log(typeof 31);
+console.log(typeof idade);
 
- let salario = 4578.32;
+let salario = 4578.32;
 
- console.log(typeof salario);
+console.log(typeof salario);
 
- let estaChovendo = true; // ou false
+let estaChovendo = true; // ou false
 
- console.log(typeof estaChovendo);
+console.log(typeof estaChovendo);
 
- console.log(typeof "teste");
+console.log(typeof "teste");

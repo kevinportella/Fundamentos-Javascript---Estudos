@@ -17,17 +17,17 @@ obj.say = function () { return 'Opa' }
 console.log(obj.say())
 
 // Passar uma função como param
-function run (fun) {
-  fun() 
+function run(fun) {
+    fun()
 }
 
-run(function () {console.log('Running...')})
+run(function () { console.log('Running...') })
 
 // Uma função pode retornar/conter uma função
 function soma(a, b) {
-  return function (c) {
-    console.log(a + b + c)
-  }
+    return function (c) {
+        console.log(a + b + c)
+    }
 }
 
-soma (2, 3) (4)
+soma(2, 3)(4)

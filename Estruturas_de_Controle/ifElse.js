@@ -1,9 +1,9 @@
-const printResults = function(nota) {
-  if(nota >= 7) {
-    console.log('Approved! ' + nota)
-  } else {
-    console.log('Reproved! ' + nota)
-  }
+const printResults = function (nota) {
+    if (nota >= 7) {
+        console.log('Approved! ' + nota)
+    } else {
+        console.log('Reproved! ' + nota)
+    }
 }
 
 printResults(10)

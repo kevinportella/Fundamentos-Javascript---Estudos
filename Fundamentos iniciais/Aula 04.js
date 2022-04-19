@@ -3,7 +3,7 @@
 // criando uma variável para armazenar os dados //
 
 var nome = "Caneta"
-let quantidade = 10;  
+let quantidade = 10;
 var preco = 6.4;
 let imposto = 1.5;
 var precoFinal = preco + imposto;

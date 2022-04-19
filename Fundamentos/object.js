@@ -9,8 +9,8 @@ console.log(product1);
 
 
 const product2 = {
-  name: 'Camisa Polo',
-  preco: '79.90'
+    name: 'Camisa Polo',
+    preco: '79.90'
 };
 
 console.log(product2);

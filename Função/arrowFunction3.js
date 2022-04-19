@@ -1,5 +1,5 @@
 let compareWithThis = function (param) {
-  console.log(this === param)
+    console.log(this === param)
 }
 
 compareWithThis(global)

@@ -1,22 +1,22 @@
 function error(erro) {
-  throw new Error('VISH!!!')
+    throw new Error('VISH!!!')
 }
 
 function printNameCrazy(obj) {
 
-  try {
-    
-    console.log(obj.name.toUpperCase() + '!!!');
+    try {
 
-  } catch (e) {
+        console.log(obj.name.toUpperCase() + '!!!');
 
-    error(e)
+    } catch (e) {
 
-  } finally {
+        error(e)
 
-    console.log('final');
+    } finally {
 
-  }
+        console.log('final');
+
+    }
 };
 
 // const obj = { name: 'Roberto' } // correto

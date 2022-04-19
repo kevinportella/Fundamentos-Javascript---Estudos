@@ -8,7 +8,7 @@ valores[4] = 10;
 console.log(valores);
 console.log(valores.length); // buscar quantos itens tem dentro do array
 
-valores.push({id: 3}, false, null, 'teste'); // .push adiciona coisa dentro do array
+valores.push({ id: 3 }, false, null, 'teste'); // .push adiciona coisa dentro do array
 console.log(valores);
 
 console.log(valores.pop()); // .pop ele retira o ultimo item do array
